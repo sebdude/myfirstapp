@@ -10,6 +10,10 @@
 
 @interface RBWViewController ()
 
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+
+- (IBAction)buttonPressed:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
 @end
 
 @implementation RBWViewController
@@ -26,4 +30,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(UIButton *)sender
+{
+    self.titleLabel.text = self.textField.text;
+    [self.textField resignFirstResponder];
+}
 @end

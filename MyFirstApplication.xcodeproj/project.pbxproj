@@ -21,6 +21,7 @@
 		B78ABDD519449C7F00D586D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78ABDB719449C7F00D586D4 /* UIKit.framework */; };
 		B78ABDDD19449C7F00D586D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B78ABDDB19449C7F00D586D4 /* InfoPlist.strings */; };
 		B78ABDDF19449C7F00D586D4 /* MyFirstApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78ABDDE19449C7F00D586D4 /* MyFirstApplicationTests.m */; };
+		B78ABDE91944A62600D586D4 /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B78ABDE81944A62600D586D4 /* images-2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B78ABDDA19449C7F00D586D4 /* MyFirstApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		B78ABDDC19449C7F00D586D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B78ABDDE19449C7F00D586D4 /* MyFirstApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstApplicationTests.m; sourceTree = "<group>"; };
+		B78ABDE81944A62600D586D4 /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		B78ABDBA19449C7F00D586D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B78ABDE81944A62600D586D4 /* images-2.jpeg */,
 				B78ABDBB19449C7F00D586D4 /* MyFirstApplication-Info.plist */,
 				B78ABDBC19449C7F00D586D4 /* InfoPlist.strings */,
 				B78ABDBF19449C7F00D586D4 /* main.m */,
@@ -231,6 +234,7 @@
 			files = (
 				B78ABDCC19449C7F00D586D4 /* Images.xcassets in Resources */,
 				B78ABDBE19449C7F00D586D4 /* InfoPlist.strings in Resources */,
+				B78ABDE91944A62600D586D4 /* images-2.jpeg in Resources */,
 				B78ABDC719449C7F00D586D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
